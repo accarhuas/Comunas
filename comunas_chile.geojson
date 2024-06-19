@@ -1,48 +1,19 @@
-
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "comuna_id": 1,
-        "comuna_nombre": "Santiago"
-        // Aquí podrías agregar más propiedades como datos específicos de cada comuna
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-70.673828125, -33.448779256, 0],
-            [-70.67657470703125, -33.441133464, 0],
-            // Aquí van las coordenadas de los vértices del polígono que representa la comuna
-            [-70.65811157226562, -33.429760664, 0],
-            [-70.66566467285156, -33.423970386, 0],
-            [-70.673828125, -33.448779256, 0]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "comuna_id": 2,
-        "comuna_nombre": "Providencia"
-        // Otra comuna con sus propiedades
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-70.60958862304688, -33.424598495, 0],
-            [-70.61164855957031, -33.417563054, 0],
-            // Aquí van las coordenadas de los vértices del polígono que representa la comuna
-            [-70.60272216796875, -33.413299605, 0],
-            [-70.60066223144531, -33.420380272, 0],
-            [-70.60958862304688, -33.424598495, 0]
-          ]
-        ]
-      }
-    },
-    // Puedes agregar más features para cada comuna que desees representar
-  ]
+{
+  "type": "Feature",
+  "properties": {
+    "comuna_id": 1,
+    "comuna_nombre": "Santiago"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-70.673828125, -33.448779256],
+        [-70.67657470703125, -33.441133464],
+        [-70.65811157226562, -33.429760664],
+        [-70.66566467285156, -33.423970386],
+        [-70.673828125, -33.448779256]
+      ]
+    ]
+  }
 }
