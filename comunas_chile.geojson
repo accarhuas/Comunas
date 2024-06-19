@@ -2,7 +2,7 @@
   "type": "Feature",
   "geometry": {
     "type": "Point",
-    "coordinates": [-70.651, -33.456]
+    "coordinates": [-33.3989812, -70.5573124]
   },
   "properties": {
     "name": "Ejemplo de Punto"
