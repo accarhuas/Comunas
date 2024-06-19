@@ -1,19 +1,11 @@
 {
   "type": "Feature",
-  "properties": {
-    "comuna_id": 1,
-    "comuna_nombre": "Santiago"
-  },
   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [-70.673828125, -33.448779256],
-        [-70.67657470703125, -33.441133464],
-        [-70.65811157226562, -33.429760664],
-        [-70.66566467285156, -33.423970386],
-        [-70.673828125, -33.448779256]
-      ]
-    ]
+    "type": "Point",
+    "coordinates": [-70.651, -33.456]
+  },
+  "properties": {
+    "name": "Ejemplo de Punto"
+    // Puedes añadir más propiedades según sea necesario
   }
 }
